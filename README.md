@@ -1,3 +1,5 @@
+🌐 Languages: [English](README.md) | [中文](README.zh.md)
+
 <a href="https://edgeone.ai/?from=github">
   <img width="60%" src="https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png" alt="Logo" />
   <p>
@@ -173,7 +175,7 @@ sudo tee /etc/docker/daemon.json <<EOF
 {
     "registry-mirrors": [
         "https://docker.mirrors.aster.edu.pl",
-        "https://docker.mirrors.imoyuapp.win"
+        "http://hub.imoyuapp.win"
     ]
 }
 EOF
@@ -191,7 +193,7 @@ git clone https://github.com/xubiaolin/docker-zerotier-planet.git
 
 **加速地址：**
 ```bash
-git clone https://github.com/xubiaolin/docker-zerotier-planet.git
+git clone https://ghproxy.imoyuapp.win/github.com/xubiaolin/docker-zerotier-planet.git
 ```
 
 ### 3.3 执行安装脚本
